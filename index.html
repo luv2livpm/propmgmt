@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Luv2Liv Property Management LLC | Love Where You Live</title>
+
+    <!-- Tailwind CSS CDN -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+
+        /* Custom Font Import (Inter is a great default) */
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        body {
+
+            font-family: 'Inter', sans-serif;
+
+            background-color: #f7f9fb; /* Light background for a clean look */
+
+        }
+
+        .header-bg {
+
+            background-color: #0b1a47; /* Deep Navy/Sapphire Blue - Professional */
+
+        }
+
+        .accent-color {
+
+            color: #ff5722; /* Warm Orange/Red Accent - Signifies Action/Repair/Care */
+
+        }
+
+        .btn-primary {
+
+            background-color: #00bcd4;
+
+            transition: background-color 0.3s;
+
+        }
+
+        .btn-primary:hover {
+
+            background-color: #00a0b2;
+
+        }
+
+        .bg-accent {
+
+            background-color: #ff5722;
+
+        }
+
+    </style>
+
+</head>
+
+<body class="text-gray-800">
+
+
+<!-- Header & Navigation Bar (Designed to be replicated in Google Sites Header) -->
+
+<header class="header-bg shadow-lg">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+
+        <!-- Logo Area: House + Wrench/Heart Motif -->
+
+        <div class="flex items-center space-x-3">
+
+            <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                <rect width="100" height="100" fill="none"/>
+
+                <!-- House Shape (Base Color) -->
+
+                <path d="M50 20L10 45V90H90V45L50 20Z" fill="#00bcd4"/>
+
+                <!-- Roofline (Darker Shade) -->
+
+                <path d="M50 20L10 45H90L50 20Z" fill="#0097A7"/>
+
+                <!-- Wrench/Service Tool (Accent Color - indicating Handyman/Maintenance) -->
+
+                <path d="M75 55L65 45L40 70L50 80L75 55Z" fill="#ff5722"/>
+
+                <circle cx="65" cy="45" r="7" fill="#ff5722"/>
+
+                <!-- Heart/Care Integration (Abstractly formed by the roof peak and the tool) -->
+
+                <path d="M50 20L57 27L50 34L43 27L50 20Z" fill="#ff5722" opacity="0.8"/>
+
+                <!-- Luv2Liv Text -->
+
+                <text x="50" y="80" font-family="Inter" font-size="20" font-weight="bold" fill="white"
+                      text-anchor="middle">2
+                </text>
+
+            </svg>
+
+            <span class="text-2xl font-bold text-white">Luv2Liv PM</span>
+
+        </div>
+
+
+        <!-- Navigation Links -->
+
+        <nav class="hidden md:flex space-x-8 text-sm font-medium">
+
+            <a href="#home" class="text-white hover:text-cyan-300 transition duration-150">Home</a>
+
+            <a href="#services" class="text-white hover:text-cyan-300 transition duration-150">Full Services</a>
+
+            <a href="#maintenance" class="text-white hover:text-cyan-300 transition duration-150">Maintenance</a>
+
+            <a href="#owners" class="text-white hover:text-cyan-300 transition duration-150">Owner Portal</a>
+
+            <a href="#contact" class="text-white hover:text-cyan-300 transition duration-150">Contact</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- Hero Section -->
+
+<main id="home" class="py-16 md:py-24">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+        <h1 class="text-5xl md:text-7xl font-extrabold text-gray-900 mb-4 leading-tight">
+
+            Love Where You Live. <span class="accent-color block mt-2">Worry-Free Management.</span>
+
+        </h1>
+
+        <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
+
+            Full-Service Property Care, Maintenance, and Management for NOVA Investors and Residents.
+
+        </p>
+
+        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+
+            <a href="#maintenance"
+               class="bg-accent text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+
+                Submit a Maintenance Request
+
+            </a>
+
+            <a href="#contact"
+               class="bg-white border-2 border-cyan-500 text-cyan-600 font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-cyan-50 transition duration-300">
+
+                Get a Free Management Quote
+
+            </a>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<!-- Value Proposition / Core Services Section -->
+
+<section id="services" class="py-16 bg-white border-t border-gray-200">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+
+            Worry-Free Management is Our Promise.
+
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+            <!-- Card 1: Owner Focus -->
+
+            <div class="bg-gray-50 p-8 rounded-xl shadow-lg border border-gray-100 transform hover:shadow-2xl transition duration-300">
+
+                <div class="text-cyan-600 mb-4">
+
+                    <!-- Icon: Owner Profit -->
+
+                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M12 8c1.657 0 3 .895 3 2s-1.343 2-3 2v2m0 0a3 3 0 100 6 3 3 0 000-6zM3 3h3a2 2 0 012 2v2a2 2 0 01-2 2H3a2 2 0 01-2-2V5a2 2 0 012-2z"></path>
+                    </svg>
+
+                </div>
+
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">Maximizing Owner Income</h3>
+
+                <p class="text-gray-600">From rigorous tenant screening and legal compliance to precise financial
+                    reporting, we ensure your investment is protected and optimized for long-term cash flow.</p>
+
+                <a href="#owners" class="mt-4 inline-block font-medium accent-color hover:underline">Go to Owner Portal
+                    →</a>
+
+            </div>
+
+
+            <!-- Card 2: Handyman/Repair Focus -->
+
+            <div class="bg-gray-50 p-8 rounded-xl shadow-lg border border-gray-100 transform hover:shadow-2xl transition duration-300">
+
+                <div class="text-accent mb-4">
+
+                    <!-- Icon: Handyman Service -->
+
+                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
+                    </svg>
+
+                </div>
+
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">24/7 Handyman & Repair Care</h3>
+
+                <p class="text-gray-600">We handle all day-to-day repairs, maintenance, and emergencies with our trusted
+                    vendor network, protecting your asset and eliminating the burden on you.</p>
+
+                <a href="#maintenance" class="mt-4 inline-block font-medium accent-color hover:underline">See
+                    Maintenance Details →</a>
+
+            </div>
+
+
+            <!-- Card 3: Tenant Focus -->
+
+            <div class="bg-gray-50 p-8 rounded-xl shadow-lg border border-gray-100 transform hover:shadow-2xl transition duration-300">
+
+                <div class="text-cyan-600 mb-4">
+
+                    <!-- Icon: Seamless Experience -->
+
+                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+
+                </div>
+
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">Seamless Resident Experience</h3>
+
+                <p class="text-gray-600">Renters enjoy easy online payments, fast resolution to all repair issues, and
+                    clear communication, leading to happy residents and better tenant retention.</p>
+
+                <a href="#tenants" class="mt-4 inline-block font-medium accent-color hover:underline">Go to Tenant
+                    Portal →</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Contact & Footer Section -->
+
+<footer id="contact" class="header-bg py-10">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+
+        <h2 class="text-3xl font-bold mb-4">Ready to Luv2Liv? Contact Us.</h2>
+
+        <p class="text-lg mb-8 text-cyan-200 max-w-2xl mx-auto">
+
+            Schedule your free consultation and discover the difference professional, caring management makes.
+
+        </p>
+
+
+        <div class="space-y-2 text-cyan-100">
+
+            <p><strong>Email:</strong> luv2livpm@gmail.com</p>
+
+            <p><strong>Phone:</strong> (508) 329-2225</p>
+
+            <p><strong>Service Area:</strong> Fairfax, Arlington, Loudoun, Prince William, and Alexandria Counties.</p>
+
+        </div>
+
+
+        <div class="mt-8 pt-6 border-t border-cyan-700">
+
+            <p class="text-sm text-cyan-300">
+
+                &copy; 2025 Luv2Liv Property Management LLC. All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
+
